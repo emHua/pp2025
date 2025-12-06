@@ -109,7 +109,9 @@ class StudentMarkSystem:
 
 
 def main():
-    system = StudentMarkSystem()
+    student_list = []
+    course_list = []
+    marks_data = {}
 
     while True:
         print("\n--- MENU ---")
